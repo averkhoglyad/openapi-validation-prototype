@@ -1,0 +1,21 @@
+GET localhost:8080/ping
+
+###
+
+GET localhost:8080/time
+
+###
+
+POST localhost:8080/echo
+Content-Type: application/json
+
+{
+  "hello": "world"
+}
+
+###
+
+POST localhost:8080/valid
+Content-Type: application/json
+
+{}
