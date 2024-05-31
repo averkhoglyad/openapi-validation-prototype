@@ -10,7 +10,6 @@ import java.time.Instant;
 import java.util.Map;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
-import static org.springframework.http.MediaType.TEXT_PLAIN_VALUE;
 import static swagger.validation.prototype.HttpRequestUtil.extractHeaders;
 
 @RestController

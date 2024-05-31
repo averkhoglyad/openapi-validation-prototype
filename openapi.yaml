@@ -79,3 +79,27 @@ paths:
               schema:
                 type: object
 
+components:
+  schemas:
+
+    Types_Foo:
+      type: string
+      enum:
+        - a
+        - s
+        - d
+        - f
+
+    Types_Bar:
+      type: string
+      enum:
+        - q
+        - w
+        - e
+        - r
+        - t
+
+    Types:
+      anyOf:
+        - $ref: "#/components/schemas/Types_Bar"
+        - $ref: "#/components/schemas/Types_Foo"
